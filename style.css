@@ -1,0 +1,60 @@
+.introBox {
+  text-align: center;
+}
+
+productTitle {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(4, 4, 52);
+  margin: 10px;
+  padding: 10px;
+}
+
+.laptopText {
+  color: brown;
+}
+
+.budgetText {
+  color: #4aa40d;
+}
+
+.productDescription {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  /* background-color: aqua; */
+  margin: 40px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.productImg {
+  width: 90%;
+  height: auto;
+  border: 4px outset rgb(190, 204, 216);
+  border-radius: 50px;
+  box-shadow: 7px 5px 5px 0px rgba(58, 175, 142, 0.45);
+}
+.productImg:hover {
+  transform: scale(1.04);
+}
+
+/* reviews card */
+.reviewsHeading {
+  color: rgb(57, 57, 212);
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.reviewsCard {
+  background-color: aqua;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 40px;
+}
+.reviewAvator {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.reviewAvator:hover {
+  transform: scale(1.04);
+}
