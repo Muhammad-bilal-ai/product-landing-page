@@ -1,3 +1,25 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: rgb(150, 150, 150);
+  padding: 10px 20px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.navbarLinks {
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbarLinks a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(3, 79, 3);
+}
+
 .introBox {
   text-align: center;
 }
